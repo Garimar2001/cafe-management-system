@@ -810,29 +810,18 @@ public class NewJFrame extends javax.swing.JFrame {
         Tdate.format(timer.getTime());
        
         jTextReceipt.setText("\tCafe Management System:"+"\n"+
-        "Reference:\t\t\t"+refs+"\n================================\n"
-                +"Meals:\t\t"+jTextCostOfMeal.getText()+
-                "\n\n"+"Drinks:\t\t"+jTextCostOfDrinks.getText()+
-                        "\n\n"+"Cost Of Items:\t"+jTextTotalCost.getText()+"\n\n"+"================================="+"\n\n"+
-                                "Tax:\t\t"+jTextTax.getText()+"\n\n"+
-                                        "Subtotal:\t"+jTextSubTotal.getText()+"\n\n"+
-                                                "Total:\t\t"+jTextTotal.getText()+"\n"+"====================================="+
+        "Reference:\t\t\t"+refs+"\n====================================================\n"
+                +"Meals:\t\t\t"+jTextCostOfMeal.getText()+
+                "\n\n"+"Drinks:\t\t\t"+jTextCostOfDrinks.getText()+
+                        "\n\n"+"Cost Of Items:\t\t\t"+jTextTotalCost.getText()+"\n\n"+"===================================================="+"\n\n"+
+                                "Tax:\t\t\t"+jTextTax.getText()+"\n\n"+
+                                        "Subtotal:\t\t\t"+jTextSubTotal.getText()+"\n\n"+
+                                                "Total:\t\t\t"+jTextTotal.getText()+"\n"+"===================================================="+
                                                         "\nDate: "+Tdate.format(timer.getTime())+
-                "\tTime: "+tTime.format(timer.getTime())+
+                "\t\tTime: "+tTime.format(timer.getTime())+
                 "\n\n\tThank You");
         
-//        jTextReceipt.append("\tCafe Management System:\n"+
-//        "Reference:\t\t\t"+refs+"\n=================\n"
-//                +"Meals:\t\t"+jTextCostOfMeal.getText()+
-//                "\n\n"+"Drinks:\t\t"+jTextCostOfDrinks.getText()+
-//                        "\n\n"+"Cost Of Items:\t"+jTextTotalCost.getText()+"\n\n"+"======================"+"\n\n"+
-//                                "Tax:\t\t"+jTextTax.getText()+"\n\n"+
-//                                        "Subtotal:\t"+jTextSubTotal.getText()+"\n\n"+
-//                                                "Total:\t\t"+jTextTotal.getText()+"\n"+"====================================="+
-//                                                        "\nDate: "+Tdate.format(timer.getTime())+
-//                "\tTime: "+tTime.format(timer.getTime())+
-//                "\n\n\tThank You"
-//                );
+        
     }//GEN-LAST:event_jButtonReceiptActionPerformed
 
     private void jButtonResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResetActionPerformed
