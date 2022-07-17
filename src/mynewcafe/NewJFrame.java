@@ -99,12 +99,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jButtonTotal = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 51, 51));
 
+        jPanel2.setBackground(new java.awt.Color(0, 51, 51));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.setForeground(new java.awt.Color(0, 51, 51));
 
-        jTextField2.setBackground(new java.awt.Color(0, 0, 0));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField2.setForeground(new java.awt.Color(0, 51, 51));
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setText("Cafe Management Project");
         jTextField2.setBorder(new javax.swing.border.MatteBorder(null));
@@ -131,31 +133,40 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel4.setBackground(new java.awt.Color(153, 156, 172));
+        jPanel4.setBackground(new java.awt.Color(0, 51, 51));
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel9.setFont(new java.awt.Font("Sitka Small", 1, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Drinks");
 
         jLabel10.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Mango Shake");
 
         jLabel11.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Oreo Shake");
 
         jLabel12.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Banana Shake");
 
         jLabel13.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Chocolate Shake");
 
         jLabel14.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Vanilla Shake");
 
         jLabel15.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Coffee");
 
         jLabel16.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Cold Coffee");
 
         jTextChocoShake.setText("0");
@@ -284,13 +295,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(0, 9, Short.MAX_VALUE))
         );
 
-        jPanel8.setBackground(new java.awt.Color(153, 156, 172));
+        jPanel8.setBackground(new java.awt.Color(0, 51, 51));
         jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel8.setFont(new java.awt.Font("Sitka Small", 1, 24)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Meals");
 
         jLabel17.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Veg Burger");
 
         jTextVegBurger.setText("0");
@@ -308,9 +321,11 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel18.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Chicken Burger");
 
         jLabel19.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Veg Pizza");
 
         jTextVegPizza.setText("0");
@@ -328,9 +343,11 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel20.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Pasta");
 
         jLabel21.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("French Fries");
 
         jTextFrenchFries.setText("0");
@@ -348,9 +365,11 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel22.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Chicken Roll");
 
         jLabel23.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Peproni Pizza");
 
         jTextPeproniPizza.setText("0");
@@ -435,10 +454,11 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(0, 13, Short.MAX_VALUE))
         );
 
-        jPanel9.setBackground(new java.awt.Color(153, 156, 172));
+        jPanel9.setBackground(new java.awt.Color(0, 51, 51));
         jPanel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel7.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Cost of Meal");
 
         jTextCostOfMeal.addActionListener(new java.awt.event.ActionListener() {
@@ -454,6 +474,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel24.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Total Cost");
 
         jTextTotalCost.addActionListener(new java.awt.event.ActionListener() {
@@ -463,6 +484,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel25.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Cost of Drinks");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
@@ -500,7 +522,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(153, 156, 172));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jTextTax.addActionListener(new java.awt.event.ActionListener() {
@@ -510,12 +532,15 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Tax");
 
         jLabel5.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Sub Total");
 
         jLabel6.setFont(new java.awt.Font("Sitka Small", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Total");
 
         jTextSubTotal.addActionListener(new java.awt.event.ActionListener() {
@@ -565,7 +590,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap(11, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(0, 51, 51));
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jTextArea1.setColumns(20);
@@ -582,8 +607,8 @@ public class NewJFrame extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1051, 1051, 1051)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(1053, 1053, 1053)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -597,6 +622,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jPanel7.setBackground(new java.awt.Color(0, 51, 51));
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jButtonReceipt.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -682,13 +708,13 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(136, 136, 136)
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 394, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(150, 150, 150))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(230, 230, 230)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(359, 359, 359))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -708,7 +734,7 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGap(29, 29, 29)
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(317, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         pack();
@@ -819,7 +845,7 @@ public class NewJFrame extends javax.swing.JFrame {
                                                 "Total:\t\t\t"+jTextTotal.getText()+"\n"+"===================================================="+
                                                         "\nDate: "+Tdate.format(timer.getTime())+
                 "\t\tTime: "+tTime.format(timer.getTime())+
-                "\n\n\tThank You");
+                "\n\n\t\tThank You");
         
         
     }//GEN-LAST:event_jButtonReceiptActionPerformed
